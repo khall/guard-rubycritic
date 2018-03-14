@@ -20,8 +20,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = `git ls-files -- test/*`.split("\n")
   spec.require_path  = "lib"
 
-  spec.add_runtime_dependency "guard", "~> 2.6"
-  spec.add_runtime_dependency "rubycritic", ">= 2.9.3"
+  spec.add_runtime_dependency "guard", "~> 2.14"
+  spec.add_runtime_dependency "rubycritic", ">= 3.3.0"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
